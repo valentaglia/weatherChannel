@@ -1,0 +1,86 @@
+*{
+    font-family:Century Gothic;
+    text-align: center;
+    }
+
+h1{
+color:white;
+font-size:50px;
+}
+
+body {
+    background: #6B0504;
+    color: white;
+    margin:0,auto;
+    
+}
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border:none;
+    border-bottom:1px solid white;
+    background:none;
+    outline:none;
+    color:white;
+    text-align: start;
+}
+button{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #0c003f;
+}
+.container {
+font-size:25px;
+background-color: white;
+color: #1e2432;
+width: 300px;
+height: 350px;
+border-radius: 20px;
+visibility: hidden;
+margin: 50px auto;
+text-align: center;
+}
+.ciudades {
+padding: 40px 10%;
+list-style:none;
+text-align: center;
+margin:0,auto;
+}
+    
+li {
+ display: list-item;
+text-align: -webkit-match-parent;
+}
+#temperatura {
+    font-size: 5rem;
+    font-weight: bold;
+    padding:10px;
+}
+#descripcion,#ciudad {
+    text-transform: uppercase;
+    text-align: center;
+        
+}
+
+#ciudad{
+    text-align: center;
+    font-weight: bold;
+}
+
+#grados{
+    font-size:3rem;
+}
+
+img{
+    width:100px;
+    height:100px;
+}
